@@ -19,7 +19,7 @@ before_script:
   - mkdir -p shippable/codecoverage
 
 # Running the tests with grunt
-script:
+script;
   - grunt
 
 # Tell istanbul to generate a coverage report
