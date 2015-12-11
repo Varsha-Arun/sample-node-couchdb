@@ -18,7 +18,7 @@ before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
   
-build_image: shippable/minv2
+#build_image: shippable/minv2
 
 # Running the tests with grunt
 script:
